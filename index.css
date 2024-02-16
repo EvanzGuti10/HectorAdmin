@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: #1e1e2a;
+}
+
+.titulo {
+    display: flex;
+    color: #fcfeff;
+    padding: 5px;
+    justify-content: center;
+}
+
+div {
+    padding: 3px;
+    width: 100%;
+}
+
+.conte {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1rem;    
+    background: #2d2e37;
+    padding: 8px 15px;
+    color: #fcfeff;
+    outline: none;
+    resize: none;
+}
+
+.datos {
+    flex: 1;
+}
+
+.nom,
+.ima,
+.cod,
+.enla,
+.env {
+    display: flex;
+}
+
+.env {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    border: none;
+    outline: none;
+    color: #fcfeff;
+    flex-grow: 1;
+    background: #2d2e37;
+    padding: 8px 15px;
+    border-radius: 1rem;
+}
+
+button {
+    flex-grow: 0;
+    font-weight: bold;
+    background: hsl(37, 94%, 57%);
+    border-radius: 0.5rem;
+	border-style: none;
+	padding: 5px;
+	border-color: hsl(37, 94%, 57%);
+	text-decoration: none;
+	color: black;
+    cursor: pointer;
+}
